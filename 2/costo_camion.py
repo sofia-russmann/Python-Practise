@@ -5,7 +5,7 @@ Created on Thu Aug 13 18:58:19 2020
 @author: sofia.russmann
 """
 
-f = open('Data/camion.csv', 'rt')
+f = open('../Data/camion.csv', 'rt')
 headers = next(f)
 headers
 total = 0
